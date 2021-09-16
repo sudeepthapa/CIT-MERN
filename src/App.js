@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import Button from './core/Button';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import HomePage from "./components/HomePage"
+
+const App = () => {
+
+  // const handleFinishClicked = () => {
+  //   console.log("I click FINISH")
+  // }
+  // const handleClickMeClicked = () => {
+  //   console.log("I clicked CLICK ME")
+  // }
+
+  return <div>
+    {/* <Button title='Click me' onClick={handleClickMeClicked} type="submit" />
+    <Button title='Finish' onClick={handleFinishClicked} type="button" /> */}
+    <HomePage />
+  </div>
 }
 
 export default App;
+
+// default
+// named

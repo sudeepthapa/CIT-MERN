@@ -1,0 +1,8 @@
+#banner{
+    height: 60vh;
+    background-color: rgb(243, 62, 92);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
