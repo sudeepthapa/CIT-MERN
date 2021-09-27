@@ -1,0 +1,13 @@
+#face_time_container{
+    padding: 30px 180px;
+}
+
+.face_time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.face_time_info{
+    width: 40%;
+}

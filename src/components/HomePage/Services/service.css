@@ -1,0 +1,20 @@
+#service_container{
+    padding: 30px 180px;
+    background: rgb(243, 62, 92);
+    display: flex;
+    color: white;
+}
+
+.service h2{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.service h4{
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+.service p{
+    margin-top: 5px;
+    font-size: 12px;
+}
