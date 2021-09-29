@@ -3,6 +3,7 @@ import AddBook from './components/AddBook';
 import BookList from './components/BookList';
 import store from './store/store';
 import { Provider } from 'react-redux';
+import UserList from './components/UserList';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
         <Switch>
           <Route path="/book/add">
             <AddBook />
+          </Route>
+          <Route path="/users">
+            <UserList />
           </Route>
           <Route path="/">
             <BookList />

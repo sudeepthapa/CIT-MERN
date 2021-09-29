@@ -1,12 +1,11 @@
 import {createSlice} from '@reduxjs/toolkit';
-
 const sliceName = 'books';
 
 export const bookSlice = createSlice({
     name: sliceName,
     initialState: {
         books: [],
-        selectedBook: {}
+        selectedBook: {},
     },
     reducers: {
         createBook: (state, action) => {

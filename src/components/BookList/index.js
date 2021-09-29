@@ -26,6 +26,7 @@ export default function BookList() {
             <div className="d-flex align-items-center justify-content-between">
                 <h1>All Books</h1>
                 <Button onClick={goToAddBook}>Add Book</Button>
+                <Button onClick={()=>history.push('/users')}>Users</Button>
             </div>
             <Table striped bordered>
                 <thead>
